@@ -1,0 +1,45 @@
+{
+  "status": "ok",
+  "totalResults": 37,
+  "articles": [
+    {
+      "source": {
+        "id": "fox-news",
+        "name": "Fox News"
+      },
+      "author": "Aubrie Spady",
+      "title": "Trump still needs Congress' help with plan to abolish Education Department - Fox News",
+      "description": "President Donald Trump is expected to sign an executive order to abolish the Department of Education, but he would need congressional approval to do completely eliminate the agency.",
+      "url": "https://www.foxnews.com/politics/trump-still-needs-congress-help-plan-abolish-education-department",
+      "urlToImage": "https://static.foxnews.com/foxnews.com/content/uploads/2025/03/trump-congress.jpg",
+      "publishedAt": "2025-03-20T14:25:00Z",
+      "content": "President Donald Trump could begin to dismantle the Department of Education via an executive order, but he would need congressional approval in order to officially abolish the agency.\r\nTrump is expec… [+4414 chars]"
+    },
+    {
+      "source": {
+        "id": "bloomberg",
+        "name": "Bloomberg"
+      },
+      "author": "Gillian Tan, Randall Williams",
+      "title": "Bill Chisholm Group Is Front-Runner to Buy Boston Celtics - Bloomberg",
+      "description": "A consortium that includes STG Partners co-founder Bill Chisholm reached a deal to buy the National Basketball Association’s Boston Celtics for $6.1 billion.",
+      "url": "https://www.bloomberg.com/news/articles/2025-03-20/bill-chisholm-group-is-front-runner-to-buy-boston-celtics",
+      "urlToImage": "https://assets.bwbx.io/images/users/iqjWHBFdfxIU/iv5_ZvB3uSVM/v1/1200x800.jpg",
+      "publishedAt": "2025-03-20T14:07:27Z",
+      "content": "A consortium that includes STG Partners co-founder Bill Chisholm reached a deal to buy the National Basketball Associations Boston Celtics for $6.1 billion.\r\nThe takeover is the biggest NBA deal ever… [+105 chars]"
+    },
+    {
+      "source": {
+        "id": null,
+        "name": "Variety"
+      },
+      "author": "Lauren Coates",
+      "title": "‘One Battle After Another’ Teaser: Leonardo DiCaprio, Paul Thomas Anderson Unite With Guns Blazing in First Footage - Variety",
+      "description": "Watch the trailer for the new Paul Thomas Anderson film \"One Battle After Another,' starring Leonardo DiCaprio",
+      "url": "https://variety.com/2025/film/news/one-battle-after-another-leonardo-dicaprio-paul-thomas-anderson-1236277796/",
+      "urlToImage": "https://variety.com/wp-content/uploads/2025/03/PTA.jpeg?w=1000&h=563&crop=1",
+      "publishedAt": "2025-03-20T14:04:47Z",
+      "content": "Warner Bros. Pictures has released the first teaser for “One Battle After Another,” the latest film from writer-director Paul Thomas Anderson starring Leonardo DiCaprio, Regina Hall, Teyana Taylor an… [+2197 chars]"
+    },
+  ]
+}

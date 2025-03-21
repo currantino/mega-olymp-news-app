@@ -1,0 +1,116 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Bucket
+   uuid = "E41F5E2E-B36E-4549-A6C4-118DEAED1286"
+   type = "1"
+   version = "2.0">
+   <Breakpoints>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "59E23B05-A336-42E3-8FD9-688E444D751D"
+            shouldBeEnabled = "No"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "MegaNews/Api/NewsApi.swift"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "18"
+            endingLineNumber = "18"
+            landmarkName = "fetchNews(category:query:completion:)"
+            landmarkType = "7">
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "D32739F2-65D4-42DB-BDFF-C7E9277D4549"
+            shouldBeEnabled = "Yes"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "MegaNews/Api/NewsApi.swift"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "50"
+            endingLineNumber = "50"
+            landmarkName = "fetchNews(category:query:completion:)"
+            landmarkType = "7">
+            <Locations>
+               <Location
+                  uuid = "D32739F2-65D4-42DB-BDFF-C7E9277D4549 - e18640ecadb5f09d"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "closure #1 @Sendable (Swift.Optional&lt;Foundation.Data&gt;, Swift.Optional&lt;__C.NSURLResponse&gt;, Swift.Optional&lt;Swift.Error&gt;) -&gt; () in MegaNews.NewsApi.fetchNews(category: MegaNews.Category, query: Swift.Optional&lt;Swift.String&gt;, completion: (MegaNews.NewsApiResponse) -&gt; ()) -&gt; ()"
+                  moduleName = "MegaNews.debug.dylib"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/m/Desktop/MegaNews/MegaNews/MegaNews/Api/NewsApi.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "46"
+                  endingLineNumber = "46">
+               </Location>
+               <Location
+                  uuid = "D32739F2-65D4-42DB-BDFF-C7E9277D4549 - e18640ecadb5f09d"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "closure #1 @Sendable (Swift.Optional&lt;Foundation.Data&gt;, Swift.Optional&lt;__C.NSURLResponse&gt;, Swift.Optional&lt;Swift.Error&gt;) -&gt; () in MegaNews.NewsApi.fetchNews(category: MegaNews.Category, query: Swift.Optional&lt;Swift.String&gt;, completion: (MegaNews.NewsApiResponse) -&gt; ()) -&gt; ()"
+                  moduleName = "MegaNews.debug.dylib"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/m/Desktop/MegaNews/MegaNews/MegaNews/Api/NewsApi.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "46"
+                  endingLineNumber = "46">
+               </Location>
+            </Locations>
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "BBEC3D80-B6B3-41A4-B144-9A753910EC52"
+            shouldBeEnabled = "Yes"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "MegaNews/Api/NewsApi.swift"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "24"
+            endingLineNumber = "24"
+            landmarkName = "fetchNews(category:query:completion:)"
+            landmarkType = "7">
+            <Locations>
+               <Location
+                  uuid = "BBEC3D80-B6B3-41A4-B144-9A753910EC52 - e18640ecadb5fda7"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "closure #1 @Sendable (Swift.Optional&lt;Foundation.Data&gt;, Swift.Optional&lt;__C.NSURLResponse&gt;, Swift.Optional&lt;Swift.Error&gt;) -&gt; () in MegaNews.NewsApi.fetchNews(category: MegaNews.Category, query: Swift.Optional&lt;Swift.String&gt;, completion: (MegaNews.NewsApiResponse) -&gt; ()) -&gt; ()"
+                  moduleName = "MegaNews.debug.dylib"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/m/Desktop/MegaNews/MegaNews/MegaNews/Api/NewsApi.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "24"
+                  endingLineNumber = "24">
+               </Location>
+               <Location
+                  uuid = "BBEC3D80-B6B3-41A4-B144-9A753910EC52 - e18640ecadb5fda7"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "closure #1 @Sendable (Swift.Optional&lt;Foundation.Data&gt;, Swift.Optional&lt;__C.NSURLResponse&gt;, Swift.Optional&lt;Swift.Error&gt;) -&gt; () in MegaNews.NewsApi.fetchNews(category: MegaNews.Category, query: Swift.Optional&lt;Swift.String&gt;, completion: (MegaNews.NewsApiResponse) -&gt; ()) -&gt; ()"
+                  moduleName = "MegaNews.debug.dylib"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/m/Desktop/MegaNews/MegaNews/MegaNews/Api/NewsApi.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "24"
+                  endingLineNumber = "24">
+               </Location>
+            </Locations>
+         </BreakpointContent>
+      </BreakpointProxy>
+   </Breakpoints>
+</Bucket>
