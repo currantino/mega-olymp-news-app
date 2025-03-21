@@ -10,6 +10,7 @@ import SwiftUI
 struct ArticleRowView: View {
 
     @State var article: Article
+    @State var showFullArticle: Bool = false
 
     var body: some View {
         VStack(spacing: 8) {
@@ -30,10 +31,18 @@ struct ArticleRowView: View {
                     .font(.caption)
                     .lineLimit(2)
             }
+            NavigationLink(
+                destination: FullArticleView(article: article),
+                isActive: self.$showFullArticle
+            ) { EmptyView() }
+        }
+        .padding()
+        .onTapGesture {
+            self.showFullArticle.toggle()
         }
     }
 }
 
 #Preview {
-    ArticleRowView(article: Article.previewData[0])
+    ArticleRowView(article: Article.previewData[1])
 }

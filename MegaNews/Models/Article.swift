@@ -8,7 +8,7 @@
 import Foundation
 import SwiftData
 
-struct Article: Identifiable, Codable, Equatable {
+struct Article: Identifiable, Codable, Equatable, Hashable {
     var id: String { url }
     var source: Source
     var author: String?
@@ -49,7 +49,7 @@ struct Article: Identifiable, Codable, Equatable {
     //    },
 }
 
-struct Source: Identifiable, Codable, Equatable {
+struct Source: Identifiable, Codable, Equatable, Hashable {
     var id: String?
     var name: String
 }
@@ -70,7 +70,7 @@ extension Article {
         let jsonData = try! Data(contentsOf: fileUrl)
 
         let jsonDecoder = JSONDecoder()
-//        jsonDecoder.dateDecodingStrategy = .iso8601
+        //        jsonDecoder.dateDecodingStrategy = .iso8601
 
         let apiResponse = try! jsonDecoder.decode(
             NewsApiResponse.self, from: jsonData)

@@ -9,7 +9,7 @@ import Foundation
 
 class NewsApi {
     static var shared = NewsApi()
-    private static let apiKey = ""//nil ?? "f5479cacfe94414ebc077bf2afd07ebe"
+    private static let apiKey = "f5479cacfe94414ebc077bf2afd07ebe"
     let baseUrl = "https://newsapi.org/v2/top-headlines?apiKey=\(apiKey)"
 
     func fetchNews(
@@ -35,9 +35,6 @@ class NewsApi {
                 print("Could not convert to string")
                 return
             }
-            print("****************")
-            print(asString)
-            print("***************")
             let jsonDecoder = JSONDecoder()
             jsonDecoder.dateDecodingStrategy = .iso8601
             do {
@@ -55,16 +52,6 @@ class NewsApi {
 
         }.resume()
     }
-
-//    func fetchArticles(category: Category = .General, query: String?)
-//        async throws -> [Article]
-//    {
-//        articles: [Articles] = []
-//        fetchNews(category: category, query: query, apiResponse in {
-//            
-//        })
-//            ?? []
-//    }
 
     func buildUrl(category: Category, query: String?) -> URL {
         var urlString = baseUrl
